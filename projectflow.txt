@@ -1,0 +1,12 @@
+# MLOps Pipeline Project Flow
+
+1. Create and clone the GitHub repository.
+2. Add the `src` pipeline components and run them individually.
+3. Ignore generated `data`, `models` and `reports` directories in Git.
+4. Initialize DVC and define the stages in `dvc.yaml`.
+5. Run `dvc repro` and inspect the pipeline with `dvc dag`.
+6. Define tunable values in `params.yaml`.
+7. Run `dvc repro` after parameter changes.
+8. Use DVCLive to record experiment metrics and parameters.
+9. Use DVC experiments to compare parameter variations.
+10. Commit reproducible pipeline metadata and source changes to Git.

@@ -1,0 +1,13 @@
+data
+models
+reports
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+venv/
+env/
+ENV/
+.env
+.ipynb_checkpoints/
+.vscode/
